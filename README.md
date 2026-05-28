@@ -1,9 +1,9 @@
-#Active Directory Home Lab
+# Active Directory Home Lab
 
-##Objective
+## Objective
 The goal for this lab was to familiarize myself with Active Directory features like creating users within domain, adding Organizational Unit, Security Groups and Group Policy among them.
 
-##Environment
+## Environment
 -Oracle VirtualBox
 -Windows Server 2022
 -Windows 10 Client
@@ -14,7 +14,7 @@ followed minimum password policy.
 Created an IT-Admins Security Group within the IT OU and added jsmith as a member.
 For the entire AlanTech domain I added Desktop Policy so that all wallpapers are to remain unchanged via the personalization options within Windows.
 
-##Steps Taken
+## Steps Taken
 My Initial steps were to establish the server via a static IP and Static DNS with a loopback IP.
 Once set I renamed the Computer DC01 under the domain of alantech.local.
 From there I went to active Directory Users and computers to establish groups with in the domain.
