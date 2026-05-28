@@ -20,8 +20,11 @@ Once set I renamed the Computer DC01 under the domain of alantech.local.
 From there I went to active Directory Users and computers to establish groups with in the domain.
 Within the alantech.local Domain I made a new OU called AlanTech, within AlanTech I made 3 OUs called Finance, HR, and IT.
 After the OUs were set for each sector I added one user per their sector, Bob Johnson for Finance, Jane Doe for HR, and John Smith for IT.
+![Description](EstablishedOUsandUsers.png)
 Within IT I add then added a Global Security Group and added jsmith as the admin for IT.
 Once all of the OUs were set, I added group policy to the entire Domain AlanTech to have Desktop-Policy so no users can change their desktop vie the personalization options inside windows.
+![Description](DesktopPolicy.png)
+![Description](EstablishedDesktopPolicy.png)
 
 ## Key Concepts Learned
 I learned that the Domain controller is the mother entity that controls the entire infrastructure. 
